@@ -838,6 +838,25 @@
           </span>
 
           
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/life/" itemprop="url" rel="index">
+                    <span itemprop="name">life</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
 
           
             
@@ -861,21 +880,12 @@
 
       
         
-          
-            <blockquote>
-<p>  从博客出生到现在一直都想做一个记录自己生活和学习的网站。就算有自己搭建的，也写过但是一直没有坚持下来,慢慢的也就没有了兴趣。<br>作为程序员很有习惯性的思维，那怕写一篇随感都要有个12345的列表。</p>
-<ol>
-<li><p>关于生活和情商<br> 很多时候困扰我们的是不得已的一些事情，工作、朋友、家人等等。<br> 当你面对这些事的时候，你会去想朋友是否在意你的做法和决定。我这样做家人是否为我担心等等。</p>
-</li>
-<li><p>关于学习<br> 除了工作之外，我们很多时候会去学习自己感兴趣的知识。<br> 怎么学习？</p>
-</li>
-</ol>
-<ol>
-<li>关于规划<br> 很多时候我挂在口边的一句话是：我不想一直给别人打工。<br> 如何自己创建事业。</li>
-</ol>
-</blockquote>
-
-          
+          记录琐碎的生活，开心，抱怨，胜利，失败...
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/05/22/life/">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -943,6 +953,25 @@
           </span>
 
           
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/JVM/" itemprop="url" rel="index">
+                    <span itemprop="name">JVM</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
 
           
             
@@ -966,47 +995,12 @@
 
       
         
-          
-            <h2 id="自旋锁"><a href="#自旋锁" class="headerlink" title="自旋锁"></a>自旋锁</h2><pre><code>自旋锁（SpinLock） ：是指一个线程在获取锁的时候，如果锁已经被其他线程持有，那么该线程将循环
-等待，然后不断的判断是否能够被成功获取，直到获取锁才会退出循环。
-该获取锁的线程一直处于活跃状态，但是并没有执行任何有效的任务，使用这种锁会造成busy waiting。
-</code></pre><blockquote>
-<p>案例：</p>
-</blockquote>
-<pre><code>public class SpinLock{
-
-    private AtomicReference&lt;Thread&gt; cas = new AtomicReference&lt;Thread&gt;();
-
-    public void lock(){
-        Thread current = Thread.currentThread(); // 获取cas
-        while(!cas.compareAndSet(null,current)){
-        // do nothing
-        }
-    }
-    public void unlock(){
-        Thread current = Thread.currentThread();
-        cas.compareAndSet(current,null);
-    }
-}
-</code></pre><blockquote>
-<p>优缺点:</p>
-<pre><code>1. 如果某个线程持有锁的时间过长，就会导致其他等待获取锁的线程进入循环等待，消耗CPU等资源。使用不当会造成CPU使用率过高。
-2. 上述java实现的自旋锁是不公平的锁，无法满足等待时间最长的线程优先获取到锁。不公平的锁就会存在“线程饥饿”的问题。
-3. 自旋锁不会使线程状态发生切换，一直处于用户态，即所谓的线程一直都是active的；不会使线程进入阻塞状态，减少了不必要的上下文切换，执行速度快。
-4. 非自旋锁在获取不到锁的时候就会进入阻塞状态，从而进入内核态，当获取到锁的时候需要从内核态恢复，需要进行上下文切换。
-</code></pre></blockquote>
-<h2 id="可重入和不可重入的自旋锁"><a href="#可重入和不可重入的自旋锁" class="headerlink" title="可重入和不可重入的自旋锁"></a>可重入和不可重入的自旋锁</h2><h2 id="自旋锁的变种"><a href="#自旋锁的变种" class="headerlink" title="自旋锁的变种"></a>自旋锁的变种</h2><blockquote>
-<ol>
-<li>TicketLock</li>
-</ol>
-<p>2.CLHLock</p>
-<p>3.MCSLock</p>
-</blockquote>
-<h2 id="自旋锁和互斥锁"><a href="#自旋锁和互斥锁" class="headerlink" title="自旋锁和互斥锁"></a>自旋锁和互斥锁</h2><pre><code>1. 自旋锁与互斥锁都是为了实现保护资源共享的机制。
-2. 无论是自旋锁还是互斥锁，在任意时刻都最多只有一个持有者。
-3. 获取互斥锁的线程，如果锁已经被占有，则该线程进入睡眠状态；获取自旋锁的线程不会睡眠，而是一直循环等待锁释放。
-</code></pre>
-          
+          自旋锁（SpinLock） ：是指一个线程在获取锁的时候，如果锁已经被其他线程持有，那么该线程将循环 等待，然后不断的判断是否能够被成功获取，直到获取锁才会退出循环。 该获取锁的线程一直处于活跃状态，但是并没有执行任何有效的任务，使用这种锁会造成busy waiting。
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/05/22/tools-lock/">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -1126,108 +1120,6 @@
 
 
     
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/05/19/hello-world/" itemprop="url">
-                  Hello World
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-19T21:59:21+08:00" content="2016-05-19">
-              2016-05-19
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1269,7 +1161,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">9</span>
+              <span class="site-state-item-count">8</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -1277,7 +1169,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
