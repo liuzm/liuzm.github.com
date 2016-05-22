@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+    
+    <entry>
+      <title><![CDATA[刘志敏的简历]]></title>
+      <url>https://liuzm.github.io/2016/05/22/resume/</url>
+      <content type="html"><![CDATA[<h1 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h1><hr>
+<p>姓名： 刘志敏  </p>
+<p>性别：男 </p>
+<p>出生年月： 1990年06月08日 </p>
+<p>毕业院校：<a href="http://www.cafuc.edu.cn/" target="_blank" rel="external">中国民用航空飞行学院</a> </p>
+<p>籍贯：湖北 </p>
+<p>现居地：北京西城区 </p>
+<p>邮箱：aliuge0608@163.com </p>
+<h1 id="职业技能"><a href="#职业技能" class="headerlink" title="职业技能"></a>职业技能</h1><hr>
+<ol>
+<li><p>java基础知识，熟悉java（反）序列化，IO，多线程等知识。</p>
+</li>
+<li><p>熟练使用springmvc、struts等框架进行开发。了解swing界面开发。</p>
+</li>
+<li><p>熟悉java常见的开发技术框架，能够利用开源技术解决常见的开发问题。例如：SOA（dubbo开发）、netty、zookeeper等。</p>
+</li>
+<li><p>熟悉web开发常见问题，能够编写shell脚本和简单web环境配置，熟悉nginx，tomcat等。</p>
+</li>
+<li><p>熟练使用关系型数据库，如：mysql，sql server；非关系型数据库，如：redis，memcache等。了解mongoDB，couchDB等。</p>
+</li>
+<li><p>了解hadoop生态环境的基本知识，使用hbase进行数据的存储等。</p>
+</li>
+<li><p>其他语言，能够利用 python，lua，shell 等进行简单问题的处理。</p>
+</li>
+<li><p>会使用消息中间件进行业务场景的处理，掌握activemq,rabbitmq,rocketmq,kafka等基本的使用。</p>
+</li>
+</ol>
+<h1 id="工作经历"><a href="#工作经历" class="headerlink" title="工作经历"></a>工作经历</h1><hr>
+<h3 id="北京祺正明翔技术装备有限公司（2012-07-2013-07）100-人"><a href="#北京祺正明翔技术装备有限公司（2012-07-2013-07）100-人" class="headerlink" title="北京祺正明翔技术装备有限公司（2012.07~2013.07）100+ 人"></a>北京祺正明翔技术装备有限公司（2012.07~2013.07）100+ 人</h3><ul>
+<li>职位  项目经理助理兼java开发工程师</li>
+<li>职责  负责辅助项目经理做需求调查、原型分析需求跟踪等；同时负责公司内部或对外开发ERP、OA、CRM等系统的开发维护</li>
+<li>项目 </li>
+</ul>
+<blockquote>
+<ol>
+<li>耀莱奢侈品进销存管理系统<ul>
+<li>简介<br>进销存管理系统是耀莱集团内部商品销售时的线上管理系统，综合商品出入库，商品销售，统计管理和门店管理以及财务清算为一体的管理系统。<br>大大节省了人力工作以及方便直观的管理维护。</li>
+<li>职责</li>
+</ul>
+<ol>
+<li>负责配合项目经理进行需求分析和原型制作。</li>
+<li>负责商品销售统计分析。</li>
+<li>门店数据的收集和维护开发。</li>
+</ol>
+</li>
+</ol>
+<ol>
+<li>高尔夫俱乐部管理系统<ul>
+<li>简介</li>
+<li>职责</li>
+</ul>
+</li>
+</ol>
+<ol>
+<li>GE（通用医疗）CTPMS管理系统<ul>
+<li>简介</li>
+<li>职责</li>
+</ul>
+</li>
+</ol>
+</blockquote>
+<h3 id="北京立新盈企大数据技术股份有限公司（2013-07-2016-03）50-100-人"><a href="#北京立新盈企大数据技术股份有限公司（2013-07-2016-03）50-100-人" class="headerlink" title="北京立新盈企大数据技术股份有限公司（2013.07~2016.03）50-100 人"></a>北京立新盈企大数据技术股份有限公司（2013.07~2016.03）50-100 人</h3><ul>
+<li>职位 java开发工程师转技术主管</li>
+<li>职责 开发项目系统和java开发组管理</li>
+<li>项目 </li>
+</ul>
+<blockquote>
+<ol>
+<li><p>数据共享平台</p>
+<ul>
+<li>简介<br>提供数据分享和共享的平台。主要有2大类资源数据，一类是常规数据，包含文档，图片等；二类是数据库表数据。</li>
+<li>职责</li>
+</ul>
+<ol>
+<li>负责该平台后台管理的开发，包含数据的审核，举报的开发。</li>
+<li>数据库表数据前端调用接口的实现和权限付费计算的开发。</li>
+</ol>
+</li>
+<li><p>微生物词典检索项目</p>
+<ul>
+<li>简介<br>微生物信息检索网是中国农科院负责对外公开的信息平台。实现研究信息的共享和学术信息的公开服务等。</li>
+<li>职责</li>
+</ul>
+<ol>
+<li>负责微生物词典检索功能的线上实现。主要是数据的导入和线上全文检索功能。</li>
+</ol>
+</li>
+<li><p><a href="http://www.jinshaninno.com" target="_blank" rel="external">鄂尔多斯(金山)技术交易与转移平台</a></p>
+<ul>
+<li>简介</li>
+<li>职责</li>
+</ul>
+</li>
+<li><p><a href="http://www.tusooo.com/" target="_blank" rel="external">图说美物可视化购物平台</a></p>
+<ul>
+<li>简介<br>图说美物是一个导购社交化的电商平台。目前主要实现了B2C，O2O的模式。主要的经营业务有：<br>线上商品批发（B2C），线下导购（O2O，针对门店商家和用户），其他搜索导购业务。</li>
+<li>职责</li>
+</ul>
+<ol>
+<li>负责平台架构的搭建和技术定型。</li>
+<li>负责项目业务开发的需求沟通和开发组管理。</li>
+<li>负责核心模块的技术开发。包含消息通知的消息中间件的使用封装、redis缓存使用、SOA模块化接口的规范制定等</li>
+<li>负责openfire聊天服务器的配置安装，二次插件开发</li>
+</ol>
+</li>
+</ol>
+</blockquote>
+<h1 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h1><p><a href="mailto:aliuge0608@163.com" target="_blank" rel="external">我的邮箱</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[关于]]></title>
+      <url>https://liuzm.github.io/2016/05/22/about/</url>
+      <content type="html"><![CDATA[<h2 id="基本说明"><a href="#基本说明" class="headerlink" title="基本说明"></a>基本说明</h2><p><em>*</em> 在自己有时间的时候记录下或者收集其他优秀前辈的智慧结晶。</p>
+<pre><code>1. 记录生活的点滴
+2. 记录java学习的历程
+3. 架构
+4. 管理和情商
+5. 唠叨和抱怨
+</code></pre><h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><p><em>*</em> 出生在90年为自己生活奋斗的青年</p>
+<ul>
+<li><a href="http://liuzm.github.io/resume/" target="_blank" rel="external">我的个人简历</a></li>
+</ul>
+<h2 id="擅长领域"><a href="#擅长领域" class="headerlink" title="擅长领域"></a>擅长领域</h2><pre><code>1. java的基础知识
+2. 进阶的java
+3. 框架
+4. 电商和金融业务
+5. 传统的业务（ERP，CRM，OA...）
+</code></pre>]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[netty 的时间轮训算法]]></title>
+      <url>https://liuzm.github.io/2016/05/22/netty-timerWheel/</url>
+      <content type="html"><![CDATA[<h2 id="Hashed-and-Hierarchical-Timing-Wheels-Efficient"><a href="#Hashed-and-Hierarchical-Timing-Wheels-Efficient" class="headerlink" title="Hashed and Hierarchical Timing Wheels: Efficient"></a>Hashed and Hierarchical Timing Wheels: Efficient</h2><p>Data Structures for Implementing a Timer Facility</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[netty的Reactor线程模型]]></title>
+      <url>https://liuzm.github.io/2016/05/22/netty-reactor/</url>
+      <content type="html"><![CDATA[<h2 id="NioEventLoop"><a href="#NioEventLoop" class="headerlink" title="NioEventLoop"></a>NioEventLoop</h2>]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[netty长连接和短连接的维护和管理]]></title>
+      <url>https://liuzm.github.io/2016/05/22/netty-keepalive/</url>
+      <content type="html"><![CDATA[<h2 id="netty的C-S架构，维护和管理client端的连接"><a href="#netty的C-S架构，维护和管理client端的连接" class="headerlink" title="netty的C/S架构，维护和管理client端的连接"></a>netty的C/S架构，维护和管理client端的连接</h2><ul>
+<li>在内存中维护一份连接表</li>
+</ul>
+<blockquote>
+<ol>
+<li>由server端定时扫描，清理掉无效的客户端连接</li>
+<li>client重写触发方法，事件触发时维护连接表</li>
+</ol>
+</blockquote>
+<ul>
+<li>本地维护一份连接表，定时轮训和心跳机制，保持短连接，需要的时候建立连接</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[记录学习和生活]]></title>
+      <url>https://liuzm.github.io/2016/05/22/life/</url>
+      <content type="html"><![CDATA[<blockquote>
+<p>  从博客出生到现在一直都想做一个记录自己生活和学习的网站。就算有自己搭建的，也写过但是一直没有坚持下来,慢慢的也就没有了兴趣。<br>作为程序员很有习惯性的思维，那怕写一篇随感都要有个12345的列表。</p>
+<ol>
+<li><p>关于生活和情商<br> 很多时候困扰我们的是不得已的一些事情，工作、朋友、家人等等。<br> 当你面对这些事的时候，你会去想朋友是否在意你的做法和决定。我这样做家人是否为我担心等等。</p>
+</li>
+<li><p>关于学习<br> 除了工作之外，我们很多时候会去学习自己感兴趣的知识。<br> 怎么学习？</p>
+</li>
+</ol>
+<ol>
+<li>关于规划<br> 很多时候我挂在口边的一句话是：我不想一直给别人打工。<br> 如何自己创建事业。</li>
+</ol>
+</blockquote>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[自旋锁]]></title>
+      <url>https://liuzm.github.io/2016/05/22/tools-lock/</url>
+      <content type="html"><![CDATA[<h2 id="自旋锁"><a href="#自旋锁" class="headerlink" title="自旋锁"></a>自旋锁</h2><pre><code>自旋锁（SpinLock） ：是指一个线程在获取锁的时候，如果锁已经被其他线程持有，那么该线程将循环
+等待，然后不断的判断是否能够被成功获取，直到获取锁才会退出循环。
+该获取锁的线程一直处于活跃状态，但是并没有执行任何有效的任务，使用这种锁会造成busy waiting。
+</code></pre><blockquote>
+<p>案例：</p>
+</blockquote>
+<pre><code>public class SpinLock{
+
+    private AtomicReference&lt;Thread&gt; cas = new AtomicReference&lt;Thread&gt;();
+
+    public void lock(){
+        Thread current = Thread.currentThread(); // 获取cas
+        while(!cas.compareAndSet(null,current)){
+        // do nothing
+        }
+    }
+    public void unlock(){
+        Thread current = Thread.currentThread();
+        cas.compareAndSet(current,null);
+    }
+}
+</code></pre><blockquote>
+<p>优缺点:</p>
+<pre><code>1. 如果某个线程持有锁的时间过长，就会导致其他等待获取锁的线程进入循环等待，消耗CPU等资源。使用不当会造成CPU使用率过高。
+2. 上述java实现的自旋锁是不公平的锁，无法满足等待时间最长的线程优先获取到锁。不公平的锁就会存在“线程饥饿”的问题。
+3. 自旋锁不会使线程状态发生切换，一直处于用户态，即所谓的线程一直都是active的；不会使线程进入阻塞状态，减少了不必要的上下文切换，执行速度快。
+4. 非自旋锁在获取不到锁的时候就会进入阻塞状态，从而进入内核态，当获取到锁的时候需要从内核态恢复，需要进行上下文切换。
+</code></pre></blockquote>
+<h2 id="可重入和不可重入的自旋锁"><a href="#可重入和不可重入的自旋锁" class="headerlink" title="可重入和不可重入的自旋锁"></a>可重入和不可重入的自旋锁</h2><h2 id="自旋锁的变种"><a href="#自旋锁的变种" class="headerlink" title="自旋锁的变种"></a>自旋锁的变种</h2><blockquote>
+<ol>
+<li>TicketLock</li>
+</ol>
+<p>2.CLHLock</p>
+<p>3.MCSLock</p>
+</blockquote>
+<h2 id="自旋锁和互斥锁"><a href="#自旋锁和互斥锁" class="headerlink" title="自旋锁和互斥锁"></a>自旋锁和互斥锁</h2><pre><code>1. 自旋锁与互斥锁都是为了实现保护资源共享的机制。
+2. 无论是自旋锁还是互斥锁，在任意时刻都最多只有一个持有者。
+3. 获取互斥锁的线程，如果锁已经被占有，则该线程进入睡眠状态；获取自旋锁的线程不会睡眠，而是一直循环等待锁释放。
+</code></pre>]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[futuretask 源码分析]]></title>
+      <url>https://liuzm.github.io/2016/05/22/jvm-futuretask/</url>
+      <content type="html"><![CDATA[<h2 id="futuretask-源码分析"><a href="#futuretask-源码分析" class="headerlink" title="futuretask 源码分析"></a>futuretask 源码分析</h2>]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hello World]]></title>
+      <url>https://liuzm.github.io/2016/05/19/hello-world/</url>
+      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    </entry>
+    
+  
+  
+</search>
