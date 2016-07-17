@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[高可用的工作心得分享]]></title>
-      <url>http://liuzm.github.io/2016/05/22/Userd/</url>
+      <url>http://www.qinyadan.com/2016/05/22/Userd/</url>
       <content type="html"><![CDATA[<p>高可用的工作心得分享</p>
 <p>2016-04-29 翁乾村 井底之蛙</p>
 <p>静态化，缓存化；</p>
@@ -25,7 +25,7 @@
     
     <entry>
       <title><![CDATA[刘志敏的简历]]></title>
-      <url>http://liuzm.github.io/2016/05/22/resume/</url>
+      <url>http://www.qinyadan.com/2016/05/22/resume/</url>
       <content type="html"><![CDATA[<h1 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h1><hr>
 <p>姓名： 刘志敏  </p>
 <p>性别：男 </p>
@@ -139,7 +139,7 @@
     
     <entry>
       <title><![CDATA[关于]]></title>
-      <url>http://liuzm.github.io/2016/05/22/about/</url>
+      <url>http://www.qinyadan.com/2016/05/22/about/</url>
       <content type="html"><![CDATA[<h2 id="基本说明"><a href="#基本说明" class="headerlink" title="基本说明"></a>基本说明</h2><p><em>*</em> 在自己有时间的时候记录下或者收集其他优秀前辈的智慧结晶。</p>
 <pre><code>1. 记录生活的点滴
 2. 记录java学习的历程
@@ -160,20 +160,20 @@
     
     <entry>
       <title><![CDATA[netty 的时间轮训算法]]></title>
-      <url>http://liuzm.github.io/2016/05/22/netty-timerWheel/</url>
+      <url>http://www.qinyadan.com/2016/05/22/netty-timerWheel/</url>
       <content type="html"><![CDATA[<h2 id="Hashed-and-Hierarchical-Timing-Wheels-Efficient"><a href="#Hashed-and-Hierarchical-Timing-Wheels-Efficient" class="headerlink" title="Hashed and Hierarchical Timing Wheels: Efficient"></a>Hashed and Hierarchical Timing Wheels: Efficient</h2><p>Data Structures for Implementing a Timer Facility</p>
 ]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[netty的Reactor线程模型]]></title>
-      <url>http://liuzm.github.io/2016/05/22/netty-reactor/</url>
+      <url>http://www.qinyadan.com/2016/05/22/netty-reactor/</url>
       <content type="html"><![CDATA[<h2 id="NioEventLoop"><a href="#NioEventLoop" class="headerlink" title="NioEventLoop"></a>NioEventLoop</h2>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[netty长连接和短连接的维护和管理]]></title>
-      <url>http://liuzm.github.io/2016/05/22/netty-keepalive/</url>
+      <url>http://www.qinyadan.com/2016/05/22/netty-keepalive/</url>
       <content type="html"><![CDATA[<h2 id="netty的C-S架构，维护和管理client端的连接"><a href="#netty的C-S架构，维护和管理client端的连接" class="headerlink" title="netty的C/S架构，维护和管理client端的连接"></a>netty的C/S架构，维护和管理client端的连接</h2><ul>
 <li>在内存中维护一份连接表</li>
 </ul>
@@ -191,7 +191,7 @@
     
     <entry>
       <title><![CDATA[记录学习和生活]]></title>
-      <url>http://liuzm.github.io/2016/05/22/life/</url>
+      <url>http://www.qinyadan.com/2016/05/22/life/</url>
       <content type="html"><![CDATA[<blockquote>
 <p>  从博客出生到现在一直都想做一个记录自己生活和学习的网站。就算有自己搭建的，也写过但是一直没有坚持下来,慢慢的也就没有了兴趣。<br>作为程序员很有习惯性的思维，那怕写一篇随感都要有个12345的列表。</p>
 <ol>
@@ -209,7 +209,7 @@
     
     <entry>
       <title><![CDATA[自旋锁]]></title>
-      <url>http://liuzm.github.io/2016/05/22/tools-lock/</url>
+      <url>http://www.qinyadan.com/2016/05/22/tools-lock/</url>
       <content type="html"><![CDATA[<h2 id="自旋锁"><a href="#自旋锁" class="headerlink" title="自旋锁"></a>自旋锁</h2><pre><code>自旋锁（SpinLock） ：是指一个线程在获取锁的时候，如果锁已经被其他线程持有，那么该线程将循环
 等待，然后不断的判断是否能够被成功获取，直到获取锁才会退出循环。
 该获取锁的线程一直处于活跃状态，但是并没有执行任何有效的任务，使用这种锁会造成busy waiting。
@@ -253,7 +253,7 @@
     
     <entry>
       <title><![CDATA[futuretask 源码分析]]></title>
-      <url>http://liuzm.github.io/2016/05/22/jvm-futuretask/</url>
+      <url>http://www.qinyadan.com/2016/05/22/jvm-futuretask/</url>
       <content type="html"><![CDATA[<h2 id="futuretask-源码分析"><a href="#futuretask-源码分析" class="headerlink" title="futuretask 源码分析"></a>futuretask 源码分析</h2>]]></content>
     </entry>
     
