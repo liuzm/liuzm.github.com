@@ -4,6 +4,28 @@
   
     
     <entry>
+      <title><![CDATA[java-skills]]></title>
+      <url>http://www.qinyadan.com/2016/07/19/java-skills/</url>
+      <content type="html"><![CDATA[<h2 id="java常用的技术"><a href="#java常用的技术" class="headerlink" title="java常用的技术"></a>java常用的技术</h2><h3 id="java基础"><a href="#java基础" class="headerlink" title="java基础"></a>java基础</h3><pre><code>1  基本数据类型和类型转化
+
+2  数组和集合
+
+3  IO读写
+
+4  文件操作
+
+5  循环遍历
+</code></pre><h3 id="java高级特性"><a href="#java高级特性" class="headerlink" title="java高级特性"></a>java高级特性</h3><pre><code>1 多线程
+
+2 缓存
+
+3 设计模式
+
+4 序列化
+</code></pre><h3 id="常见的框架模型"><a href="#常见的框架模型" class="headerlink" title="常见的框架模型"></a>常见的框架模型</h3>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[高可用的工作心得分享]]></title>
       <url>http://www.qinyadan.com/2016/05/22/Userd/</url>
       <content type="html"><![CDATA[<p>高可用的工作心得分享</p>
@@ -31,7 +53,7 @@
 <p>出生年月： 1990年06月08日 </p>
 <p>毕业院校：<a href="http://www.cafuc.edu.cn/" target="_blank" rel="external">中国民用航空飞行学院</a> </p>
 <p>籍贯：湖北 </p>
-<p>现居地：北京西城区 </p>
+<p>现居地：北京丰台区 </p>
 <p>邮箱：aliuge0608@163.com </p>
 <h1 id="职业技能"><a href="#职业技能" class="headerlink" title="职业技能"></a>职业技能</h1><hr>
 <ol>
@@ -147,7 +169,7 @@
 5. 唠叨和抱怨
 </code></pre><h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><p><em>*</em> 出生在90年为自己生活奋斗的青年</p>
 <ul>
-<li><a href="http://liuzm.github.io/resume/" target="_blank" rel="external">我的个人简历</a></li>
+<li><a href="http://liuzm.github.io/2016/05/22/resume/" target="_blank" rel="external">我的个人简历</a></li>
 </ul>
 <h2 id="擅长领域"><a href="#擅长领域" class="headerlink" title="擅长领域"></a>擅长领域</h2><pre><code>1. java的基础知识
 2. 进阶的java
