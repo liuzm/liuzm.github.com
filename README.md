@@ -1,4 +1,4 @@
-# liuzm.github.com
+# www.qinyadan.com
 该博客主要介绍自己，同时收集关于java，js方面的知识。
 # 擅长
 ## javaweb开发
