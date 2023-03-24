@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - master # default branch
-      -
+
 jobs:
   pages:
     runs-on: ubuntu-latest
@@ -26,9 +26,13 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Build
-        run: npm run build
+        run: npx hexo algolia
+        env:
+          HEXO_ALGOLIA_INDEXING_KEY: ${{ secrets.HEXO_ALGOLIA_INDEXING_KEY }}
+      - run: NODE_ENV=production npx hexo g
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          force_orphan: true
