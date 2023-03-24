@@ -105,20 +105,20 @@ head:
 navbar:
     # Navigation menu items
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
-        About: /about
+        首页: /
+        归档: /archives
+        分类: /categories
+        标签: /tags
+        关于: /about
     # Links to be shown on the right of the navigation bar
     links:
-        Download on GitHub:
+        Follow me on GitHub:
             icon: fab fa-github
             url: https://github.com/liuzm/liuzm
 # Page footer configurations
 footer:
     # Copyright text
-    copyright: © 2023
+    copyright: aliuge0608 知识分享版权所有
     # Links to be shown on the right of the footer section
     links:
         Creative Commons:
@@ -129,7 +129,7 @@ footer:
             url: https://creativecommons.org/licenses/by/4.0/
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/liuzm
 # Article related configurations
 article:
     # Code highlight settings
@@ -164,51 +164,51 @@ search:
     index_pages: true
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
-comment:
-    type: disqus
-    # Disqus shortname
-    shortname: ''
+#comment:
+#    type: disqus
+#    # Disqus shortname
+#    shortname: ''
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
     # "Afdian.net" donate button configurations
-    -
-        type: afdian
-        # URL to the "Afdian.net" personal page
-        url: ''
+#    -
+#        type: afdian
+#        # URL to the "Afdian.net" personal page
+#        url: ''
     # Alipay donate button configurations
     -
         type: alipay
         # Alipay qrcode image URL
-        qrcode: ''
+        qrcode: './images/WechatIMG12.jpeg'
     # "Buy me a coffee" donate button configurations
-    -
-        type: buymeacoffee
-        # URL to the "Buy me a coffee" page
-        url: ''
+#    -
+#        type: buymeacoffee
+#        # URL to the "Buy me a coffee" page
+#        url: ''
     # Patreon donate button configurations
-    -
-        type: patreon
-        # URL to the Patreon page
-        url: ''
+#    -
+#        type: patreon
+#        # URL to the Patreon page
+#        url: ''
     # Paypal donate button configurations
-    -
-        type: paypal
-        # Paypal business ID or email address
-        business: ''
-        # Currency code
-        currency_code: USD
+#    -
+#        type: paypal
+#        # Paypal business ID or email address
+#        business: ''
+#        # Currency code
+#        currency_code: USD
     # Wechat donate button configurations
     -
         type: wechat
         # Wechat qrcode image URL
-        qrcode: ''
+        qrcode: './images/WechatIMG13.jpeg'
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
-share:
-    type: sharethis
-    # URL to the ShareThis share plugin script
-    install_url: ''
+#share:
+#    type: sharethis
+#    # URL to the ShareThis share plugin script
+#    install_url: ''
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -249,16 +249,16 @@ widgets:
                 url: https://github.com/liuzm
             Facebook:
                 icon: fab fa-facebook
-                url: https://facebook.com
-            Twitter:
+                url: aliuge0608
+            Email:
                 icon: fab fa-twitter
-                url: https://twitter.com
-            Dribbble:
-                icon: fab fa-dribbble
-                url: https://dribbble.com
-            RSS:
-                icon: fas fa-rss
-                url: /
+                url: mailto:aliuge0608@gmail.com
+#            Dribbble:
+#                icon: fab fa-dribbble
+#                url: https://dribbble.com
+#            RSS:
+#                icon: fas fa-rss
+#                url: /
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -277,8 +277,7 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Hexo: https://hexo.io
-            Bulma: https://bulma.io
+            AQ数据共享平台（微信搜索公众号）: ""
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -306,14 +305,14 @@ widgets:
         # Whether to show tags count, i.e. number of posts in the tag.
         show_count: true
     # Google FeedBurner email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: subscribe_email
-        # Hint text under the email input
-        description: 
-        # Feedburner ID
-        feedburner_id: ''
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: left
+#        type: subscribe_email
+#        # Hint text under the email input
+#        description:
+#        # Feedburner ID
+#        feedburner_id: ''
     # Google AdSense unit configurations
 #    -
 #        # Where should the widget be placed, left sidebar or right sidebar
@@ -324,16 +323,16 @@ widgets:
 #        # AdSense AD unit ID
 #        slot_id: ''
     # Follow.it email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: followit
-        # Hint text under the email input
-        description: 
-        # Subscription form action URL
-        action_url: ''
-        # Feed claiming verification code
-        verification_code: ''
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: left
+#        type: followit
+#        # Hint text under the email input
+#        description:
+#        # Subscription form action URL
+#        action_url: ''
+#        # Feed claiming verification code
+#        verification_code: ''
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
@@ -383,9 +382,9 @@ plugins:
         tracking_id: UA-111597041-1
     # Hotjar user feedback plugin
     # https://www.hotjar.com/
-    hotjar:
-        # Hotjar site id
-        site_id: 
+#    hotjar:
+#        # Hotjar site id
+#        site_id:
     # Enable the KaTeX math typesetting support
     # https://katex.org/
     katex: false
@@ -405,10 +404,10 @@ plugins:
         # Statcounter project security code
         security: 
     # Twitter conversion tracking plugin settings
-    # https://business.twitter.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites.html
-    twitter_conversion_tracking:
-        # Twitter Pixel ID
-        pixel_id: 
+#    # https://business.twitter.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites.html
+#    twitter_conversion_tracking:
+#        # Twitter Pixel ID
+#        pixel_id:
 # CDN provider settings
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
