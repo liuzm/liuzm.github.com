@@ -18,13 +18,13 @@ widgets:
     position: left
     type: profile
     # Author name
-    author: PPOffice
+    author: aliuge0608
     # Author title
-    author_title: Web Developer
+    author_title: 互联网打工人
     # Author's current location
-    location: Earth, Solar System
+    location: Beijing
     # URL or path to the avatar image
-    avatar:
+    avatar: ./images/avarter.jpeg
     # Whether show the rounded avatar image
     avatar_rounded: false
     # Email address for the Gravatar

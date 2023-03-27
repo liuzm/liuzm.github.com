@@ -1,6 +1,6 @@
 ---
 title: 序列化常用框架
-date: {{ date }}
+date: 2023-03-27 20:39:44
 categories:
 - Serializable
 tags:
