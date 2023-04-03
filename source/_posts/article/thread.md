@@ -4,9 +4,10 @@ categories:
 - Thread
 tags:
 - Thread
-- Base
 language: zh-CN
 ---
+主要学习线程模型相关的知识
+<!-- more -->
 
 ## Thread
 ```text

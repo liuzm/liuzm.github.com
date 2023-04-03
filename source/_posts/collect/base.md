@@ -7,7 +7,9 @@ tags:
 - Base
 language: zh-CN
 ---
+该文档主要收集互联网常见好用的技术网站。实用建议收藏。
 
+<!-- more -->
 ## java相关网站
 
 1. [并发编程网](http://ifeve.com/)

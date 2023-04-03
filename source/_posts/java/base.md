@@ -8,6 +8,11 @@ language: zh-CN
 ---
 
 ## 基础介绍
+
+    java基本内容的介绍，常见点整理。
+
+<!-- more -->
+
 ### JVM
 ```bash
     

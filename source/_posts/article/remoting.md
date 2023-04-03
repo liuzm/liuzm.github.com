@@ -4,9 +4,10 @@ categories:
 - Remoting RPC
 tags:
 - RPC
-- Base
 language: zh-CN
 ---
+该篇主要介绍rpc调用以及案例
+<!-- more -->
 
 ## Remoting RPC
 ```text
