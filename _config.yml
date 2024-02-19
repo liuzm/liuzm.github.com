@@ -72,6 +72,24 @@ pagination_dir: page
 include: null
 exclude: null
 ignore: null
+
 theme: icarus
+
+# Deployment
+## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repository: https://github.com/liuzm/liuzm.github.com.git
+  branch: gh-pages
+
+marked:
+  gfm: true
+  breaks: false
+
+githubEmojis:
+  className: not-gallery-item
+
+algolia:
+  applicationID: HQ5VT9MBBZ
+  apiKey: dee1879afbdef9f2d87684342f17930d
+  indexName: qyd-icarus
