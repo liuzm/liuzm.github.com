@@ -313,15 +313,15 @@ widgets:
 #        description:
 #        # Feedburner ID
 #        feedburner_id: ''
-    # Google AdSense unit configurations
-#    -
-#        # Where should the widget be placed, left sidebar or right sidebar
-#        position: left
-#        type: adsense
-#        # AdSense client ID
-#        client_id: ''
-#        # AdSense AD unit ID
-#        slot_id: ''
+   #  Google AdSense unit configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: adsense
+        # AdSense client ID
+        client_id: 'ca-pub-4952653426015138'
+        # AdSense AD unit ID
+        slot_id: '6149412667'
     # Follow.it email subscription widget configurations
 #    -
 #        # Where should the widget be placed, left sidebar or right sidebar
@@ -344,7 +344,7 @@ plugins:
     # https://tongji.baidu.com
     baidu_analytics:
         # Baidu Analytics tracking ID
-        tracking_id: a1c36f45c8a376ec15159dad82594720
+        tracking_id: 768b034699e94798b58cb6ec8a8f3e40
     # Bing Webmaster Tools plugin settings
     # https://www.bing.com/toolbox/webmaster/
 #    bing_webmaster:
