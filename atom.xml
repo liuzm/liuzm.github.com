@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>aliuge0608</title>
+  
+  <subtitle>TiDB、flink、kafka、rocketmq etc</subtitle>
+  <link href="http://liuzm.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://liuzm.github.io/"/>
+  <updated>2024-02-19T11:20:17.101Z</updated>
+  <id>http://liuzm.github.io/</id>
+  
+  <author>
+    <name>aliuge0608</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>聊聊各种ID</title>
+    <link href="http://liuzm.github.io/2023/04/13/article/ids/"/>
+    <id>http://liuzm.github.io/2023/04/13/article/ids/</id>
+    <published>2023-04-13T03:52:54.000Z</published>
+    <updated>2024-02-19T11:20:17.101Z</updated>
+    
+    <content type="html"><![CDATA[<p>在各个系统中都会存在一个比较特殊的字段或者属性，那就是ID。你会发现它会贯穿整个系统，或在整个系统中占有很大的一个比重。</p><span id="more"></span><h2 id="述论"><a href="#述论" class="headerlink" title="述论"></a>述论</h2><h3 id="Mysql-PostgreSQL-的主键ID"><a href="#Mysql-PostgreSQL-的主键ID" class="headerlink" title="Mysql &amp; PostgreSQL 的主键ID"></a>Mysql &amp; PostgreSQL 的主键ID</h3><ol><li>mysql主键。默认指定一个ID字段来作为主键，并且自增。</li><li>PostgreSQL利用SEQUENCE来指定ID字段来做自增。</li></ol><h3 id="Hbase的rowkey"><a href="#Hbase的rowkey" class="headerlink" title="Hbase的rowkey"></a>Hbase的rowkey</h3><figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">RowKey唯一标识一行记录:</span><br><span class="line">1. RowKey长度原则</span><br><span class="line">2. 唯一原则</span><br><span class="line">3. 排序原则</span><br><span class="line">4. 散列原则</span><br></pre></td></tr></tbody></table></figure><h3 id="elasticsearch的docId"><a href="#elasticsearch的docId" class="headerlink" title="elasticsearch的docId"></a>elasticsearch的docId</h3><ol><li>自动生成</li><li>手动生成</li></ol><h3 id="rocketMQ-kafka-的msgId"><a href="#rocketMQ-kafka-的msgId" class="headerlink" title="rocketMQ &amp; kafka 的msgId"></a>rocketMQ &amp; kafka 的msgId</h3><ol><li>rocketMQ<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rocketMQ在数据落盘时（内存或者磁盘）会生成msgId.</span><br></pre></td></tr></tbody></table></figure></li><li>Kafka<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">  </span><br></pre></td></tr></tbody></table></figure></li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;在各个系统中都会存在一个比较特殊的字段或者属性，那就是ID。你会发现它会贯穿整个系统，或在整个系统中占有很大的一个比重。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="ID" scheme="http://liuzm.github.io/categories/ID/"/>
+    
+    
+    <category term="技术梳理" scheme="http://liuzm.github.io/tags/%E6%8A%80%E6%9C%AF%E6%A2%B3%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cloudevents Specification 说明</title>
+    <link href="http://liuzm.github.io/2023/04/03/specification/cloudevents/"/>
+    <id>http://liuzm.github.io/2023/04/03/specification/cloudevents/</id>
+    <published>2023-04-03T08:39:44.000Z</published>
+    <updated>2024-02-19T11:20:17.105Z</updated>
+    
+    <content type="html"><![CDATA[<p>cloudevents</p><span id="more"></span><h3 id="官方地址"><a href="#官方地址" class="headerlink" title="官方地址"></a>官方地址</h3><p><a href="https://github.com/cloudevents/spec">github地址</a></p><h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><h3 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h3>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;cloudevents&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Specification" scheme="http://liuzm.github.io/categories/Specification/"/>
+    
+    
+    <category term="cloudevents" scheme="http://liuzm.github.io/tags/cloudevents/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>openApi Specification 说明</title>
+    <link href="http://liuzm.github.io/2023/04/03/specification/openapi/"/>
+    <id>http://liuzm.github.io/2023/04/03/specification/openapi/</id>
+    <published>2023-04-03T08:39:44.000Z</published>
+    <updated>2024-02-19T11:20:17.105Z</updated>
+    
+    <content type="html"><![CDATA[<p>OpenApi</p><span id="more"></span><h3 id="官方地址"><a href="#官方地址" class="headerlink" title="官方地址"></a>官方地址</h3><p><a href="https://github.com/OAI/OpenAPI-Specification">github地址</a></p><h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><h3 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h3>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;OpenApi&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Specification" scheme="http://liuzm.github.io/categories/Specification/"/>
+    
+    <category term="OpenApi" scheme="http://liuzm.github.io/categories/Specification/OpenApi/"/>
+    
+    
+    <category term="openApi" scheme="http://liuzm.github.io/tags/openApi/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Opencontainers Specification 说明</title>
+    <link href="http://liuzm.github.io/2023/04/03/specification/opencontainer/"/>
+    <id>http://liuzm.github.io/2023/04/03/specification/opencontainer/</id>
+    <published>2023-04-03T08:39:44.000Z</published>
+    <updated>2024-02-19T11:20:17.105Z</updated>
+    
+    <content type="html"><![CDATA[<p>Opencontainers</p><span id="more"></span><h3 id="官方地址"><a href="#官方地址" class="headerlink" title="官方地址"></a>官方地址</h3><p><a href="https://specs.opencontainers.org/">文档地址</a></p><h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><h3 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h3>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Opencontainers&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Specification" scheme="http://liuzm.github.io/categories/Specification/"/>
+    
+    <category term="Opencontainers" scheme="http://liuzm.github.io/categories/Specification/Opencontainers/"/>
+    
+    
+    <category term="Opencontainers" scheme="http://liuzm.github.io/tags/Opencontainers/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Openmessaging Specification 说明</title>
+    <link href="http://liuzm.github.io/2023/04/03/specification/openmessaging/"/>
+    <id>http://liuzm.github.io/2023/04/03/specification/openmessaging/</id>
+    <published>2023-04-03T08:39:44.000Z</published>
+    <updated>2024-02-19T11:20:17.105Z</updated>
+    
+    <content type="html"><![CDATA[<p>Openmessaging</p><span id="more"></span><h3 id="官方地址"><a href="#官方地址" class="headerlink" title="官方地址"></a>官方地址</h3><p><a href="https://github.com/openmessaging/specification">github地址</a></p><h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><h3 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h3>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Openmessaging&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Specification" scheme="http://liuzm.github.io/categories/Specification/"/>
+    
+    <category term="Openmessaging" scheme="http://liuzm.github.io/categories/Specification/Openmessaging/"/>
+    
+    
+    <category term="Openmessaging" scheme="http://liuzm.github.io/tags/Openmessaging/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Opensergo Specification 说明</title>
+    <link href="http://liuzm.github.io/2023/04/03/specification/opensergo/"/>
+    <id>http://liuzm.github.io/2023/04/03/specification/opensergo/</id>
+    <published>2023-04-03T08:39:44.000Z</published>
+    <updated>2024-02-19T11:20:17.105Z</updated>
+    
+    <content type="html"><![CDATA[<p>Opensergo</p><span id="more"></span><h3 id="官方地址"><a href="#官方地址" class="headerlink" title="官方地址"></a>官方地址</h3><p><a href="https://github.com/opensergo/opensergo-specification">github地址</a></p><h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><h3 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h3>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Opensergo&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Specification" scheme="http://liuzm.github.io/categories/Specification/"/>
+    
+    <category term="Opensergo" scheme="http://liuzm.github.io/categories/Specification/Opensergo/"/>
+    
+    
+    <category term="Opensergo" scheme="http://liuzm.github.io/tags/Opensergo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Opentelemetry Specification 说明</title>
+    <link href="http://liuzm.github.io/2023/04/03/specification/opentelemetry/"/>
+    <id>http://liuzm.github.io/2023/04/03/specification/opentelemetry/</id>
+    <published>2023-04-03T08:39:44.000Z</published>
+    <updated>2024-02-19T11:20:17.105Z</updated>
+    
+    <content type="html"><![CDATA[<p>Opentelemetry</p><span id="more"></span><h3 id="官方地址"><a href="#官方地址" class="headerlink" title="官方地址"></a>官方地址</h3><p><a href="https://github.com/open-telemetry/opentelemetry-specification">github地址</a></p><h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><h3 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h3>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Opentelemetry&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Specification" scheme="http://liuzm.github.io/categories/Specification/"/>
+    
+    <category term="Opentelemetry" scheme="http://liuzm.github.io/categories/Specification/Opentelemetry/"/>
+    
+    
+    <category term="Opentelemetry" scheme="http://liuzm.github.io/tags/Opentelemetry/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ServerlessWorkflow Specification 说明</title>
+    <link href="http://liuzm.github.io/2023/04/03/specification/serverlessworkflow/"/>
+    <id>http://liuzm.github.io/2023/04/03/specification/serverlessworkflow/</id>
+    <published>2023-04-03T08:39:44.000Z</published>
+    <updated>2024-02-19T11:20:17.105Z</updated>
+    
+    <content type="html"><![CDATA[<p>ServerlessWorkflow</p><span id="more"></span><h3 id="官方地址"><a href="#官方地址" class="headerlink" title="官方地址"></a>官方地址</h3><p><a href="https://github.com/serverlessworkflow/specification/blob/main/specification.md">github地址</a></p><h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><h3 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h3>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;ServerlessWorkflow&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Specification" scheme="http://liuzm.github.io/categories/Specification/"/>
+    
+    <category term="ServerlessWorkflow" scheme="http://liuzm.github.io/categories/Specification/ServerlessWorkflow/"/>
+    
+    
+    <category term="ServerlessWorkflow" scheme="http://liuzm.github.io/tags/ServerlessWorkflow/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>营销中心</title>
+    <link href="http://liuzm.github.io/2023/04/01/marketing/base/"/>
+    <id>http://liuzm.github.io/2023/04/01/marketing/base/</id>
+    <published>2023-04-01T07:39:44.000Z</published>
+    <updated>2024-02-19T11:20:17.105Z</updated>
+    
+    <content type="html"><![CDATA[<span id="more"></span>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;</summary>
+      
+    
+    
+    
+    <category term="营销中心" scheme="http://liuzm.github.io/categories/%E8%90%A5%E9%94%80%E4%B8%AD%E5%BF%83/"/>
+    
+    
+    <category term="Base" scheme="http://liuzm.github.io/tags/Base/"/>
+    
+    <category term="营销中心" scheme="http://liuzm.github.io/tags/%E8%90%A5%E9%94%80%E4%B8%AD%E5%BF%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>营销中心</title>
+    <link href="http://liuzm.github.io/2023/04/01/marketing/marketing-activity/"/>
+    <id>http://liuzm.github.io/2023/04/01/marketing/marketing-activity/</id>
+    <published>2023-04-01T07:39:44.000Z</published>
+    <updated>2024-02-19T11:20:17.105Z</updated>
+    
+    <content type="html"><![CDATA[<p>活动</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;活动&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="营销中心" scheme="http://liuzm.github.io/categories/%E8%90%A5%E9%94%80%E4%B8%AD%E5%BF%83/"/>
+    
+    <category term="活动" scheme="http://liuzm.github.io/categories/%E8%90%A5%E9%94%80%E4%B8%AD%E5%BF%83/%E6%B4%BB%E5%8A%A8/"/>
+    
+    
+    <category term="营销中心" scheme="http://liuzm.github.io/tags/%E8%90%A5%E9%94%80%E4%B8%AD%E5%BF%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>营销中心</title>
+    <link href="http://liuzm.github.io/2023/04/01/marketing/marketing-card/"/>
+    <id>http://liuzm.github.io/2023/04/01/marketing/marketing-card/</id>
+    <published>2023-04-01T07:39:44.000Z</published>
+    <updated>2024-02-19T11:20:17.105Z</updated>
+    
+    <content type="html"><![CDATA[<p>礼品卡</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;礼品卡&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="营销中心" scheme="http://liuzm.github.io/categories/%E8%90%A5%E9%94%80%E4%B8%AD%E5%BF%83/"/>
+    
+    <category term="礼品卡" scheme="http://liuzm.github.io/categories/%E8%90%A5%E9%94%80%E4%B8%AD%E5%BF%83/%E7%A4%BC%E5%93%81%E5%8D%A1/"/>
+    
+    
+    <category term="营销中心" scheme="http://liuzm.github.io/tags/%E8%90%A5%E9%94%80%E4%B8%AD%E5%BF%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>营销中心</title>
+    <link href="http://liuzm.github.io/2023/04/01/marketing/marketing-coupon/"/>
+    <id>http://liuzm.github.io/2023/04/01/marketing/marketing-coupon/</id>
+    <published>2023-04-01T07:39:44.000Z</published>
+    <updated>2024-02-19T11:20:17.105Z</updated>
+    
+    <content type="html"><![CDATA[<p>券</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;券&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="营销中心" scheme="http://liuzm.github.io/categories/%E8%90%A5%E9%94%80%E4%B8%AD%E5%BF%83/"/>
+    
+    <category term="优惠券" scheme="http://liuzm.github.io/categories/%E8%90%A5%E9%94%80%E4%B8%AD%E5%BF%83/%E4%BC%98%E6%83%A0%E5%88%B8/"/>
+    
+    
+    <category term="营销中心" scheme="http://liuzm.github.io/tags/%E8%90%A5%E9%94%80%E4%B8%AD%E5%BF%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>营销中心</title>
+    <link href="http://liuzm.github.io/2023/04/01/marketing/marketing-price/"/>
+    <id>http://liuzm.github.io/2023/04/01/marketing/marketing-price/</id>
+    <published>2023-04-01T07:39:44.000Z</published>
+    <updated>2024-02-19T11:20:17.105Z</updated>
+    
+    <content type="html"><![CDATA[<p>算价</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;算价&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="营销中心" scheme="http://liuzm.github.io/categories/%E8%90%A5%E9%94%80%E4%B8%AD%E5%BF%83/"/>
+    
+    <category term="算价" scheme="http://liuzm.github.io/categories/%E8%90%A5%E9%94%80%E4%B8%AD%E5%BF%83/%E7%AE%97%E4%BB%B7/"/>
+    
+    
+    <category term="营销中心" scheme="http://liuzm.github.io/tags/%E8%90%A5%E9%94%80%E4%B8%AD%E5%BF%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>订单中心</title>
+    <link href="http://liuzm.github.io/2023/04/01/order/base/"/>
+    <id>http://liuzm.github.io/2023/04/01/order/base/</id>
+    <published>2023-04-01T07:39:44.000Z</published>
+    <updated>2024-02-19T11:20:17.105Z</updated>
+    
+    
+    
+    
+    <category term="订单中心" scheme="http://liuzm.github.io/categories/%E8%AE%A2%E5%8D%95%E4%B8%AD%E5%BF%83/"/>
+    
+    
+    <category term="订单中心" scheme="http://liuzm.github.io/tags/%E8%AE%A2%E5%8D%95%E4%B8%AD%E5%BF%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>商品中心</title>
+    <link href="http://liuzm.github.io/2023/04/01/product/base/"/>
+    <id>http://liuzm.github.io/2023/04/01/product/base/</id>
+    <published>2023-04-01T07:39:44.000Z</published>
+    <updated>2024-02-19T11:20:17.105Z</updated>
+    
+    
+    
+    
+    <category term="商品中心" scheme="http://liuzm.github.io/categories/%E5%95%86%E5%93%81%E4%B8%AD%E5%BF%83/"/>
+    
+    
+    <category term="商品中心" scheme="http://liuzm.github.io/tags/%E5%95%86%E5%93%81%E4%B8%AD%E5%BF%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>会员中心</title>
+    <link href="http://liuzm.github.io/2023/04/01/user/base/"/>
+    <id>http://liuzm.github.io/2023/04/01/user/base/</id>
+    <published>2023-04-01T07:39:44.000Z</published>
+    <updated>2024-02-19T11:20:17.105Z</updated>
+    
+    <content type="html"><![CDATA[<span id="more"></span>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;</summary>
+      
+    
+    
+    
+    <category term="会员中心" scheme="http://liuzm.github.io/categories/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83/"/>
+    
+    
+    <category term="Base" scheme="http://liuzm.github.io/tags/Base/"/>
+    
+    <category term="会员中心" scheme="http://liuzm.github.io/tags/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>会员中心身份</title>
+    <link href="http://liuzm.github.io/2023/04/01/user/user-asset/"/>
+    <id>http://liuzm.github.io/2023/04/01/user/user-asset/</id>
+    <published>2023-04-01T07:39:44.000Z</published>
+    <updated>2024-02-19T11:20:17.105Z</updated>
+    
+    <content type="html"><![CDATA[<p>资产</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;资产&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="会员中心" scheme="http://liuzm.github.io/categories/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83/"/>
+    
+    <category term="资产" scheme="http://liuzm.github.io/categories/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83/%E8%B5%84%E4%BA%A7/"/>
+    
+    
+    <category term="会员中心" scheme="http://liuzm.github.io/tags/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>会员中心身份</title>
+    <link href="http://liuzm.github.io/2023/04/01/user/user-rights/"/>
+    <id>http://liuzm.github.io/2023/04/01/user/user-rights/</id>
+    <published>2023-04-01T07:39:44.000Z</published>
+    <updated>2024-02-19T11:20:17.105Z</updated>
+    
+    <content type="html"><![CDATA[<p>权益</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;权益&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="会员中心" scheme="http://liuzm.github.io/categories/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83/"/>
+    
+    <category term="权益" scheme="http://liuzm.github.io/categories/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83/%E6%9D%83%E7%9B%8A/"/>
+    
+    
+    <category term="会员中心" scheme="http://liuzm.github.io/tags/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>会员中心身份</title>
+    <link href="http://liuzm.github.io/2023/04/01/user/user-task/"/>
+    <id>http://liuzm.github.io/2023/04/01/user/user-task/</id>
+    <published>2023-04-01T07:39:44.000Z</published>
+    <updated>2024-02-19T11:20:17.105Z</updated>
+    
+    <content type="html"><![CDATA[<p>会员任务</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;会员任务&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="会员中心" scheme="http://liuzm.github.io/categories/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83/"/>
+    
+    <category term="任务" scheme="http://liuzm.github.io/categories/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83/%E4%BB%BB%E5%8A%A1/"/>
+    
+    
+    <category term="会员中心" scheme="http://liuzm.github.io/tags/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>会员中心身份</title>
+    <link href="http://liuzm.github.io/2023/04/01/user/user-vip/"/>
+    <id>http://liuzm.github.io/2023/04/01/user/user-vip/</id>
+    <published>2023-04-01T07:39:44.000Z</published>
+    <updated>2024-02-19T11:20:17.105Z</updated>
+    
+    <content type="html"><![CDATA[<p>会员卡</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;会员卡&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="会员中心" scheme="http://liuzm.github.io/categories/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83/"/>
+    
+    <category term="会员" scheme="http://liuzm.github.io/categories/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83/%E4%BC%9A%E5%91%98/"/>
+    
+    
+    <category term="会员中心" scheme="http://liuzm.github.io/tags/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83/"/>
+    
+  </entry>
+  
+</feed>
