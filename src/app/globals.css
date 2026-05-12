@@ -1,0 +1,128 @@
+/* ============================================================
+   全局样式 — 蓝白灰色调门户风格
+   ============================================================ */
+
+/* 引入 Ant Design 的 CSS 变量 */
+@import 'antd/dist/reset.css';
+
+:root {
+  --primary-color: #1677ff;
+  --primary-light: #e6f4ff;
+  --text-color: #1f1f1f;
+  --text-secondary: #666;
+  --bg-color: #ffffff;
+  --bg-gray: #f5f7fa;
+  --border-color: #e8e8e8;
+  --header-height: 64px;
+  --max-width: 1200px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans SC', sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4096ff;
+}
+
+/* 容器 — 限制最大宽度并居中 */
+.page-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* 板块标题 */
+.section-title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 12px;
+  color: var(--text-color);
+}
+
+.section-subtitle {
+  font-size: 15px;
+  text-align: center;
+  color: var(--text-secondary);
+  margin-bottom: 40px;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section-light {
+  background-color: var(--bg-gray);
+}
+
+.section-white {
+  background-color: var(--bg-color);
+}
+
+/* 文章正文样式 */
+.article-content {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--text-color);
+}
+
+.article-content h1 {
+  font-size: 28px;
+  margin: 32px 0 16px;
+}
+
+.article-content h2 {
+  font-size: 22px;
+  margin: 28px 0 14px;
+}
+
+.article-content h3 {
+  font-size: 18px;
+  margin: 24px 0 12px;
+}
+
+.article-content p {
+  margin-bottom: 16px;
+}
+
+.article-content ul,
+.article-content ol {
+  margin-bottom: 16px;
+  padding-left: 24px;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .section {
+    padding: 40px 0;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+
+  .page-container {
+    padding: 0 16px;
+  }
+}
