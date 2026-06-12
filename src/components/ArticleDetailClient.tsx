@@ -145,7 +145,7 @@ export default function ArticleDetailClient({ article }: ArticleDetailClientProp
               </div>
 
               {/* 文章底部广告 */}
-              <AdBanner size="728x90" position="article-detail-bottom" />
+              <AdBanner slot="9021853749" />
 
               {/* 上一篇 / 下一篇 */}
               <Divider />

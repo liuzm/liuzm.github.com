@@ -105,7 +105,7 @@ function ArticlesContent() {
                   </Row>
 
                   {/* 列表底部广告位 */}
-                  <AdBanner size="728x90" position="article-list-bottom" />
+                  <AdBanner slot="9021853749" />
 
                   {/* 分页 */}
                   <div style={{ textAlign: 'center', marginTop: 32 }}>

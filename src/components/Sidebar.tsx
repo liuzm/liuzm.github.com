@@ -113,7 +113,7 @@ export default function Sidebar() {
       </Card>
 
       {/* 广告位 */}
-      <AdBanner size="300x250" position="sidebar" />
+      <AdBanner slot="9021853749" />
 
       {/* 关注提示 */}
       <Card size="small" style={{ marginTop: 16 }}>

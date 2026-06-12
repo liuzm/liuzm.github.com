@@ -364,7 +364,7 @@ export const mockNews: NewsItem[] = [
   {
     id: 'news-02',
     title: '公众号「牛流刘」开通，专注技术分享',
-    summary: '感谢各位读者的支持，公众号「牛流刘」致力于分享 Java / TypeScript 全栈开发、高并发系统设计与 AI 科技前沿内容。
+    summary: '感谢各位读者的支持，公众号「牛流刘」致力于分享 Java / TypeScript 全栈开发、高并发系统设计与 AI 科技前沿内容。',
     publishDate: '2026-04-15',
     type: 'announcement',
   },
