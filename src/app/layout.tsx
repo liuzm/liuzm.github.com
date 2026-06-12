@@ -13,16 +13,16 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: '刘志敏 | 个人官方网站',
   description:
-    '刘志敏的个人官方网站 — Java / TypeScript 全栈开发者，专注高并发系统设计与银发经济研究。提供足球分析、AI 科技资讯等内容。',
+    '刘志敏的个人官方网站 — Java / TypeScript 全栈开发者，专注高并发系统设计与技术分享。提供足球分析、AI 科技资讯等内容。',
   keywords: [
     '刘志敏', 'Java', 'TypeScript', '高并发', 'NIO',
-    '银发经济', '足球分析', 'AI科技', '个人网站',
+    '技术分享', '足球分析', 'AI科技', '个人网站',
   ],
   authors: [{ name: '刘志敏', url: 'https://github.com/liuzm' }],
   openGraph: {
     title: '刘志敏 | 个人官方网站',
     description:
-      'Java / TypeScript 全栈开发者 · 高并发系统设计 · 银发经济探索者',
+      'Java / TypeScript 全栈开发者 · 高并发系统设计 · 技术分享',
     type: 'website',
     locale: 'zh_CN',
   },

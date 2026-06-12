@@ -23,7 +23,7 @@ export default function OfficialAccountSection() {
         <Title level={2} className="section-title">公众号推广</Title>
         <Text className="section-subtitle">
           <WechatOutlined style={{ marginRight: 8 }} />
-          关注「{officialAccount.name}」，洞察银发经济新趋势
+          关注「{officialAccount.name}」，获取技术干货
         </Text>
 
         <Row gutter={[48, 32]} align="middle">

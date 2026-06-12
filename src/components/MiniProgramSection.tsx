@@ -5,7 +5,6 @@ import { Row, Col, Typography, Card, Tag, Space } from 'antd';
 import {
   AppstoreOutlined,
   CheckCircleOutlined,
-  ScanOutlined,
 } from '@ant-design/icons';
 import { miniProgram } from '@/data/mock';
 
@@ -23,7 +22,7 @@ export default function MiniProgramSection() {
         <Title level={2} className="section-title">我的小程序</Title>
         <Text className="section-subtitle">
           <AppstoreOutlined style={{ marginRight: 8 }} />
-          「{miniProgram.name}」— 用心服务老年群体
+          「{miniProgram.name}」— AI 生活健康小助手
         </Text>
 
         <Row gutter={[48, 32]} align="middle">
@@ -115,16 +114,25 @@ export default function MiniProgramSection() {
                 style={{
                   width: 100,
                   height: 100,
-                  background: '#f5f5f5',
+                  background: '#fff',
                   borderRadius: 8,
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
                   flexShrink: 0,
+                  overflow: 'hidden',
+                  border: '1px solid #e8e8e8',
                 }}
               >
-                {/* TODO: 替换为真实的小程序码 */}
-                <ScanOutlined style={{ fontSize: 36, color: '#999' }} />
+                <img
+                  src={miniProgram.qrCodeImage}
+                  alt={`${miniProgram.name} 小程序码`}
+                  style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'contain',
+                  }}
+                />
               </div>
               <div>
                 <Text style={{ fontSize: 14, fontWeight: 600, display: 'block', marginBottom: 4 }}>

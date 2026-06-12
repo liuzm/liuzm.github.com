@@ -114,7 +114,7 @@ export default function HeroSection() {
             lineHeight: 1.6,
           }}
         >
-          Java / TypeScript 开发者 · 高并发系统设计 · 银发经济探索者
+          Java / TypeScript 开发者 · 高并发系统设计 · 技术分享
         </Text>
 
         {/* CTA 按钮 */}

@@ -10,7 +10,7 @@ export const profile = {
   bio: `资深 Java 开发者，拥有多年企业级应用开发经验。
 擅长高并发系统设计与调优，对 NIO 网络编程有深入研究。
 热爱技术，追求代码质量与工程效率。工作之余，
-关注老年经济赛道，运营相关公众号与小程序。`,
+关注技术分享与开源，运营相关公众号与小程序。`,
   avatar: '/images/avatar-placeholder.png',   // 替换为你的头像
   email: 'aliuge0608@gmail.com',                // 替换为你的邮箱
   wechat: 'aliuge0608',                    // 替换为你的微信号
@@ -38,15 +38,15 @@ export const profile = {
 // 公众号信息 — 请替换为你自己的
 // ============================================================
 export const officialAccount = {
-  name: '老年经济观察',
-  description: `聚焦银发经济赛道，解读老年产业政策与市场趋势。
-为您提供养老产业深度分析、老年消费洞察、康养行业前沿资讯。`,
-  qrCodeImage: '/images/qrcode_for_gh_4dca966639fa_258.jpg',
+  name: '牛流刘',
+  description: `专注技术分享，涵盖 Java / TypeScript 全栈开发、
+高并发系统设计、AI 科技前沿等实用技术内容。`,
+  qrCodeImage: '/images/qrcode_for_gh_572ef77cd45c_258.jpg',
   recentArticles: [
-    '老龄化加速背景下，银发经济如何把握新机遇？',
-    '2026 年中国养老产业市场规模预测与趋势分析',
-    '社区居家养老新模式：数字化赋能的实践与思考',
-    '老年旅游市场爆发，哪些细分赛道值得关注？',
+    'Spring Boot 3.x 新特性详解：从迁移到实战',
+    '高并发系统设计：从线程池到协程的演进之路',
+    'AI Agent 开发实战：用 LangChain 构建智能应用',
+    'TypeScript 高级类型体操：从入门到精通',
   ],
 };
 
@@ -54,16 +54,16 @@ export const officialAccount = {
 // 小程序信息 — 请替换为你自己的
 // ============================================================
 export const miniProgram = {
-  name: '老年生活助手',
-  description: `一款专为老年人设计的综合生活服务小程序。
-提供健康管理、社区社交、政策查询等一站式服务。`,
-  screenshotImage: '/images/mini-program-screenshot.png', // 替换为小程序截图
-  qrCodeImage: '/images/mini-program-qr.png',             // 替换为小程序码
+  name: '灵机玄谈',
+  description: `一款 AI 驱动的健康生活小助手。
+提供智能健康问答、生活建议、养生知识等贴心服务。`,
+  screenshotImage: '/images/mini-program-screenshot.png',
+  qrCodeImage: '/images/1.png',
   features: [
-    '健康档案管理：记录血压、血糖等健康指标',
-    '社区互动：附近老年活动中心、兴趣小组',
-    '政策查询：养老补贴、医保政策一站查',
-    '紧急联系：一键呼叫子女或社区服务',
+    'AI 智能问答：健康问题随时问，秒回专业建议',
+    '生活助手：天气、菜谱、出行一站式服务',
+    '养生知识：每日推送科学养生小贴士',
+    '健康管理：个性化饮食与运动建议',
   ],
 };
 
@@ -363,22 +363,22 @@ export const mockNews: NewsItem[] = [
   },
   {
     id: 'news-02',
-    title: '公众号「老年经济观察」粉丝突破 10000 人',
-    summary: '感谢各位读者的支持，公众号将继续输出高质量的银发经济分析内容。',
+    title: '公众号「牛流刘」开通，专注技术分享',
+    summary: '感谢各位读者的支持，公众号「牛流刘」致力于分享 Java / TypeScript 全栈开发、高并发系统设计与 AI 科技前沿内容。
     publishDate: '2026-04-15',
     type: 'announcement',
   },
   {
     id: 'news-03',
-    title: '小程序「老年生活助手」v2.0 版本发布',
-    summary: '新版本新增健康档案管理和社区互动功能，优化了用户体验和响应速度。',
+    title: '小程序「灵机玄谈」上线，AI 健康助手',
+    summary: '「灵机玄谈」是一款 AI 驱动的健康生活小助手，提供智能问答、养生知识等服务。',
     publishDate: '2026-04-01',
     type: 'update',
   },
   {
     id: 'news-04',
-    title: '《2026 中国银发经济白皮书》即将发布',
-    summary: '由本站联合多家研究机构共同编撰的白皮书即将发布，敬请期待。',
+    title: '《2026 技术趋势白皮书》即将发布',
+    summary: '由本站联合多家技术社区共同编撰的白皮书即将发布，敬请期待。',
     publishDate: '2026-03-20',
     type: 'industry',
   },
@@ -391,8 +391,8 @@ export const mockNews: NewsItem[] = [
   },
   {
     id: 'news-06',
-    title: '养老产业数字化转型论坛将于 6 月在北京举办',
-    summary: '本次论坛将邀请行业专家、企业代表共同探讨养老产业的数字化机遇。',
+    title: 'AI 技术开发者论坛将于 6 月在北京举办',
+    summary: '本次论坛将邀请技术专家、企业代表共同探讨 AI 技术的最新进展与实践。',
     publishDate: '2026-02-28',
     type: 'industry',
   },
